@@ -1,0 +1,43 @@
+.trust-banner {
+  background-color: rgb(43, 125, 26);
+  color: #ffffff;
+  padding: 15px 20px;
+  font-weight: 900;
+  font-size: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 101;
+  box-sizing: border-box;
+}
+
+.trust-banner-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.banner-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.banner-icon {
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .trust-banner {
+    padding: 12px 10px;
+  }
+  .trust-banner-content {
+    justify-content: center;
+    gap: 15px;
+  }
+  .banner-item {
+    font-size: 0.9rem;
+  }
+}
